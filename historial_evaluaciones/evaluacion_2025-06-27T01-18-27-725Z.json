@@ -1,0 +1,18 @@
+{
+  "proyecto": "Evaluación de refrigeradoras",
+  "fecha": "2025-06-27T01:18:27.725Z",
+  "resultados": [
+    {
+      "nombre": "Samsung RT32",
+      "total": 7.85
+    },
+    {
+      "nombre": "LG Smart Fridge",
+      "total": 7.65
+    },
+    {
+      "nombre": "Indurama 420L",
+      "total": 6
+    }
+  ]
+}

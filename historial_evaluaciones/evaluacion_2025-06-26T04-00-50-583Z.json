@@ -1,0 +1,22 @@
+{
+  "proyecto": "Evaluación de laptops ",
+  "fecha": "2025-06-26T04:00:50.583Z",
+  "resultados": [
+    {
+      "nombre": "Acer Aspire 5",
+      "total": 6.55
+    },
+    {
+      "nombre": "HP Pavilion 14",
+      "total": 6.25
+    },
+    {
+      "nombre": "Lenovo IdeaPad 3",
+      "total": 4.9
+    },
+    {
+      "nombre": "ASUS VivoBook 15",
+      "total": 3.9
+    }
+  ]
+}
