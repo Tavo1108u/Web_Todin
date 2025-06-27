@@ -12,22 +12,22 @@ const authController = require("../controllers/authController");
 
 router.get("/logout", authController.logout);
 
-// Rutas de login
+
 router.get("/login", authController.formLogin);
 router.post("/login", authController.login);
 router.get("/logout", authController.logout);
 
-// Página principal protegida
+
 router.get("/", authController.verificarAutenticacion, (req, res) => {
   res.render("index");
 });
 
-// Formulario protegido
+
 router.get("/formulario", authController.verificarAutenticacion, (req, res) => {
   res.render("form");
 });
 
-// Historial protegido
+
 router.get("/historial", authController.verificarAutenticacion, (req, res) => {
   const ruta = path.join(__dirname, "..", "historial_evaluaciones");
 
@@ -80,10 +80,10 @@ router.get("/historial", authController.verificarAutenticacion, (req, res) => {
   res.render("historial", { historial });
 });
 
-// Evaluación protegida
+
 router.post("/evaluar", authController.verificarAutenticacion, todimController.evaluar);
 
-// Descarga PDF protegida
+
 router.get("/descargar/:nombreArchivo", authController.verificarAutenticacion, (req, res) => {
   const archivo = req.params.nombreArchivo;
   const ruta = path.join(__dirname, "..", "historial_evaluaciones", archivo);

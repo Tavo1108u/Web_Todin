@@ -32,7 +32,7 @@ exports.evaluar = (req, res) => {
 
   resultados.sort((a, b) => b.total - a.total);
 
-  // 🟢 Ajuste importante: guardar fecha real ISO
+  
   const resultadoFinal = {
     proyecto: proyecto || "Sin nombre",
     fecha: new Date().toISOString(),

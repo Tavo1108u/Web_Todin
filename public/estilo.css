@@ -16,7 +16,7 @@ h1, h2, h3 {
   color: #1e40af;
 }
 
-/* Botones */
+
 .btn-primary {
   background-color: #2563eb;
   border: none;
@@ -56,7 +56,7 @@ h1, h2, h3 {
   color: #fff;
 }
 
-/* Inputs */
+
 .form-control {
   background-color: #e0f2fe;
   border: 1px solid #93c5fd;
@@ -69,7 +69,7 @@ h1, h2, h3 {
   box-shadow: 0 0 0 0.2rem rgba(59, 130, 246, 0.3);
 }
 
-/* Alertas */
+
 .alert-danger {
   background-color: #fee2e2;
   color: #b91c1c;
@@ -77,7 +77,7 @@ h1, h2, h3 {
   border-radius: 0.5rem;
 }
 
-/* Tabla */
+
 .table th {
   background-color: #1e3a8a;
   color: #fff;
@@ -92,7 +92,7 @@ h1, h2, h3 {
   background-color: #f1f5f9;
 }
 
-/* Enlaces */
+
 a {
   text-decoration: none;
 }
